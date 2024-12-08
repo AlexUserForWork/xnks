@@ -2439,6 +2439,12 @@ input[type=color]::-webkit-color-swatch{
     height: 30px;
     opacity: 1;
   }
+  90% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+
   100% {
     width: 300px;
     height: 300px;
