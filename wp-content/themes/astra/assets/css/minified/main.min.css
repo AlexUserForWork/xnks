@@ -681,7 +681,7 @@ body{
 }
 
 span {
-	animation: depth 1s ease-in-out alternate infinite;
+	/* animation: depth 1s ease-in-out alternate infinite;
 	position: relative;
 	display: inline-block;
 	font-variation-settings: "EDPT" 30;
@@ -690,7 +690,7 @@ span {
 		&:nth-child(#{$i}) {
 			animation-delay: $i * 0.1s;
 		}
-	}
+	} */
 }
 
 @keyframes depth {
