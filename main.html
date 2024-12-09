@@ -211,14 +211,28 @@
          media="all"
       />
       <style id="astra-theme-css-inline-css">
+         .custom-button {
+            background-color: #00b894; 
+            border: 4px solid black;
+            border-radius: 12px;
+
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            box-shadow: 0 5px 0 #005f47;
+         }
+         .custom-button:active {
+            box-shadow: 0 2px 0 #005f47;
+            transform: translateY(3px);
+         }
          .contract {
             font-size: 25px !important;
          }
 
          @media (max-width: 768px) {
             .contract {
-            font-size: 12px !important;
-         }
+               font-size: 12px !important;
+            }
          }
          .music-toggle-btn {
             position: fixed;
@@ -4920,6 +4934,7 @@
 
          .elementor-1318 .elementor-element.elementor-element-b0a47dc,
          .elementor-1318 .elementor-element.elementor-element-b0a47dc::before {
+            z-index: 10;
             --border-transition: 0.3s;
          }
          .elementor-1318 .elementor-element.elementor-element-9d7af09 {
@@ -4961,6 +4976,7 @@
          .elementor-1318 .elementor-element.elementor-element-9c26fe0,
          .elementor-1318 .elementor-element.elementor-element-9c26fe0::before {
             --border-transition: 0.3s;
+            z-index: 10;
          }
          .elementor-1318 .elementor-element.elementor-element-6a0c2ee {
             text-align: center;
@@ -5001,6 +5017,7 @@
          .elementor-1318 .elementor-element.elementor-element-deeb5b1,
          .elementor-1318 .elementor-element.elementor-element-deeb5b1::before {
             --border-transition: 0.3s;
+            z-index: 10;
          }
          .elementor-1318 .elementor-element.elementor-element-0073282 {
             text-align: center;
@@ -6199,7 +6216,7 @@
                                        data-element_type="container"
                                     >
                                        <div
-                                          class="elementor-element elementor-element-55e7bbf elementor-widget elementor-widget-button"
+                                          class="elementor-element elementor-element-55e7bbf elementor-widget elementor-widget-button "
                                           data-id="55e7bbf"
                                           data-element_type="widget"
                                           data-widget_type="button.default"
@@ -6216,10 +6233,10 @@
                                                    target="_blank"
                                                 >
                                                    <span
-                                                      class="elementor-button-content-wrapper"
+                                                      class="elementor-button-content-wrapper "
                                                    >
                                                       <span
-                                                         class="elementor-button-text"
+                                                         class="elementor-button-text "
                                                          >X</span
                                                       >
                                                    </span>
@@ -7341,7 +7358,7 @@
                                                    >
                                                       <span
                                                          class="elementor-button-text"
-                                                         >TWITTER</span
+                                                         >X</span
                                                       >
                                                    </span>
                                                 </a>
