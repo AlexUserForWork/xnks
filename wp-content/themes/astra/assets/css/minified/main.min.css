@@ -2252,13 +2252,14 @@ input[type=color]::-webkit-color-swatch{
   justify-content: space-evenly;
   text-align: center;
   white-space: nowrap;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: absolute;
   z-index: 1;
   margin: -40px 0 0 0;
   padding: 0;
   pointer-events: none;
   width: 100%;
+  min-height: 80px;
   li {
     position: relative;
     animation-fill-mode: both;
@@ -2324,6 +2325,12 @@ input[type=color]::-webkit-color-swatch{
       margin-left: -40px;
     }
   }
+}
+
+@media (max-width: 1200px) {
+    .lightrope {
+        overflow: hidden;
+    }
 }
 @media (max-width:768px){
     .blog-layout-3{
