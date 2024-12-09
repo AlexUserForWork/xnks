@@ -211,6 +211,15 @@
          media="all"
       />
       <style id="astra-theme-css-inline-css">
+         .contract {
+            font-size: 25px !important;
+         }
+
+         @media (max-width: 768px) {
+            .contract {
+            font-size: 12px !important;
+         }
+         }
          .music-toggle-btn {
             position: fixed;
             bottom: 20px;
@@ -5030,6 +5039,7 @@
          }
          .elementor-1318 .elementor-element.elementor-element-3176493,
          .elementor-1318 .elementor-element.elementor-element-3176493::before {
+            z-index: 10;
             --border-transition: 0.3s;
          }
          .elementor-1318 .elementor-element.elementor-element-6691d83 {
@@ -5330,12 +5340,12 @@
             }
          }
          @media (max-width: 1024px) {
-
             .elementor-1318 .elementor-element.elementor-element-d109ecf,
-         .elementor-1318 .elementor-element.elementor-element-d109ecf::before {
-            --border-transition: 0.3s;
-                height: 100vh;
-         }
+            .elementor-1318
+               .elementor-element.elementor-element-d109ecf::before {
+               --border-transition: 0.3s;
+               height: 100vh;
+            }
             .elementor-1318 .elementor-element.elementor-element-d109ecf {
                --min-height: 16vh;
             }
@@ -6935,7 +6945,7 @@
                                              class="elementor-widget-container"
                                           >
                                              <h2
-                                                class="elementor-heading-title elementor-size-default"
+                                                class="elementor-heading-title elementor-size-default contract"
                                              >
                                                 CA:
                                                 1E13CBDKrLSruC5gsjscptSDtgrE6JTUZQmmcrNpump
